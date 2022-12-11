@@ -1,0 +1,47 @@
+*vim-scratchbuf*  Vim Scratchbuf
+
+===============================================================================
+Contents ~
+ 1. Introduction                                    |vim-scratchbuf-introduction|
+ 2. Installation                                    |vim-scratchbuf-installation|
+ 3. Basic Usage                                     |vim-scratchbuf-basic-usage|
+
+===============================================================================
+                                                    *vim-scratchbuf-introduction*
+Introduction ~
+
+Scratch buffer for taking notes, calculatins and etc.
+
+===============================================================================
+                                                    *vim-scratchbuf-installation*
+Installation ~
+
+If you use [Vundle](https://github.com/gmarik/vundle), add the following line to your `~/.vimrc`:
+
+>
+    Plugin 'esoytekin/vim-scratchbuf'
+<
+
+Then run inside Vim:
+
+>
+    :so ~/.vimrc
+    :PluginInstall
+<
+If you use [Pathogen](https://github.com/tpope/vim-pathogen), do this:
+
+>
+    cd ~/.vim/bundle
+    git clone https://github.com/esoytekin/vim-scratchbuf.git
+<
+===============================================================================
+                                                     *vim-scratchbuf-basic-usage*
+Basic usage ~
+
+run `:Scratchbuf` command whenever you need a scratch buffer.
+
+when you are done quit and wipeout buffer by pressing `q` on the keyboard.
+
+-------------------------------------------------------------------------------
+
+vim: ft=help
